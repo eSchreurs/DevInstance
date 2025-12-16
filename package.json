@@ -1,0 +1,24 @@
+{
+  "name": "x-326171-portfolio",
+  "version": "1.0.0",
+  "description": "Displays all my awesome work",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.1.1",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.1.1",
+    "@servicenow/isomorphic-rollup": "^1.2.1",
+    "@types/react": "19.x",
+    "@types/react-dom": "19.x",
+    "react": "19.x",
+    "react-dom": "19.x",
+    "typescript": "5.5.4"
+  }
+}

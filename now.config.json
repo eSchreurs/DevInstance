@@ -1,0 +1,6 @@
+{
+  "scope": "x_326171_portfolio",
+  "scopeId": "bc5bf3d283b13210c8d2cd19feaad3b2",
+  "name": "Portfolio",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
