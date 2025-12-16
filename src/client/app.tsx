@@ -3,6 +3,7 @@ import { IncidentService } from './services/IncidentService'
 import IncidentList from './components/IncidentList'
 import IncidentForm from './components/IncidentForm'
 import './app.css'
+import { useNavigate } from 'react-router'
 
 export default function App() {
     const [incidents, setIncidents] = useState([])
@@ -10,6 +11,7 @@ export default function App() {
     const [showForm, setShowForm] = useState(false)
     const [selectedIncident, setSelectedIncident] = useState(null)
     const [error, setError] = useState(null)
+    let navigate = useNavigate();
 
     const incidentService = useMemo(() => new IncidentService(), [])
 
@@ -34,6 +36,10 @@ export default function App() {
     const handleCreateClick = () => {
         setSelectedIncident(null)
         setShowForm(true)
+    }
+
+    const handleNavigateKanban = () => {
+        navigate("kanban");
     }
 
     const handleEditClick = (incident) => {
@@ -73,6 +79,9 @@ export default function App() {
             <header className="app-header">
                 <h1>Incident Response Manager</h1>
                 <button className="create-button" onClick={handleCreateClick}>
+                    Create New Incident
+                </button>
+                <button className="create-button" onClick={handleNavigateKanban}>
                     Create New Incident
                 </button>
             </header>
