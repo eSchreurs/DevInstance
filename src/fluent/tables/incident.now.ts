@@ -55,11 +55,14 @@ export const x_326171_portfolio_incident = Table({
     },
     accessibleFrom: 'public',
     callerAccess: 'tracking',
-    actions: ['read', 'update', 'delete', 'create'],
+    actions: ['read', 'update', 'create'],
     allowWebServiceAccess: true,
     autoNumber: {
         prefix: 'INC',
         number: 1000,
         numberOfDigits: 7,
     },
+    allowClientScripts: true,
+    allowNewFields: true,
+    allowUiActions: true,
 })

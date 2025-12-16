@@ -5,9 +5,65 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '0e88cce283f13210c8d2cd19feaad326': {
+                        table: 'sys_ui_element'
+                        id: '0e88cce283f13210c8d2cd19feaad326'
+                    }
+                    '3188042283f13210c8d2cd19feaad3a1': {
+                        table: 'sys_ui_section'
+                        id: '3188042283f13210c8d2cd19feaad3a1'
+                    }
+                    '4288cce283f13210c8d2cd19feaad329': {
+                        table: 'sys_ui_element'
+                        id: '4288cce283f13210c8d2cd19feaad329'
+                    }
+                    '4688cce283f13210c8d2cd19feaad328': {
+                        table: 'sys_ui_element'
+                        id: '4688cce283f13210c8d2cd19feaad328'
+                    }
+                    '4688cce283f13210c8d2cd19feaad32b': {
+                        table: 'sys_ui_element'
+                        id: '4688cce283f13210c8d2cd19feaad32b'
+                    }
+                    '4a88cce283f13210c8d2cd19feaad327': {
+                        table: 'sys_ui_element'
+                        id: '4a88cce283f13210c8d2cd19feaad327'
+                    }
+                    '4a88cce283f13210c8d2cd19feaad32a': {
+                        table: 'sys_ui_element'
+                        id: '4a88cce283f13210c8d2cd19feaad32a'
+                    }
+                    '4e88cce283f13210c8d2cd19feaad329': {
+                        table: 'sys_ui_element'
+                        id: '4e88cce283f13210c8d2cd19feaad329'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: 'b1124b4294aa4d508a73fdbf087c77a8'
+                    }
+                    c288cce283f13210c8d2cd19feaad32a: {
+                        table: 'sys_ui_element'
+                        id: 'c288cce283f13210c8d2cd19feaad32a'
+                    }
+                    c688cce283f13210c8d2cd19feaad329: {
+                        table: 'sys_ui_element'
+                        id: 'c688cce283f13210c8d2cd19feaad329'
+                    }
+                    ca88cce283f13210c8d2cd19feaad328: {
+                        table: 'sys_ui_element'
+                        id: 'ca88cce283f13210c8d2cd19feaad328'
+                    }
+                    ca88cce283f13210c8d2cd19feaad32b: {
+                        table: 'sys_ui_element'
+                        id: 'ca88cce283f13210c8d2cd19feaad32b'
+                    }
+                    ce88cce283f13210c8d2cd19feaad327: {
+                        table: 'sys_ui_element'
+                        id: 'ce88cce283f13210c8d2cd19feaad327'
+                    }
+                    ce88cce283f13210c8d2cd19feaad32a: {
+                        table: 'sys_ui_element'
+                        id: 'ce88cce283f13210c8d2cd19feaad32a'
                     }
                     'incident-manager-page': {
                         table: 'sys_ui_page'
@@ -99,6 +155,78 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '3488402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'opened_at'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '3888402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'resolved_at'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '3c88402283f13210c8d2cd19feaad383'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'number'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '3c88402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'status'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '421da0ce60d840d38568044cdfe2eadb'
                         key: {
@@ -137,6 +265,23 @@ declare global {
                         id: '77ce9300ae6e4c989ae3a8266267583f'
                         key: {
                             name: 'x_326171_portfolio_incident'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list'
+                        id: '7888402283f13210c8d2cd19feaad382'
+                        key: {
+                            name: 'x_326171_portfolio_incident'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
                         }
                     },
                     {
@@ -217,6 +362,60 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: 'b088402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'b488402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'b888402283f13210c8d2cd19feaad384'
+                        key: {
+                            list_id: {
+                                id: '7888402283f13210c8d2cd19feaad382'
+                                key: {
+                                    name: 'x_326171_portfolio_incident'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'short_description'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'c399f1e1eb5047f0be15c43be624177e'
                         key: {
@@ -240,6 +439,13 @@ declare global {
                         key: {
                             name: 'x_326171_portfolio_incident'
                             element: 'short_description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_view'
+                        id: 'Default view'
+                        key: {
+                            name: 'NULL'
                         }
                     },
                     {
