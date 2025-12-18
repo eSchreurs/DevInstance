@@ -22,8 +22,9 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "@ibercore/react-kanban": "2.1.1",
+    "react-kanban-kit": "0.0.2-beta.5",
     "react-router": "7.10.1",
     "react-router-dom": "7.10.1"
-  }
+  },
+    "type": "module"
 }

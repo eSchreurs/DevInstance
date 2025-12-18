@@ -76,10 +76,12 @@ declare global {
                     'x_326171_portfolio/main': {
                         table: 'sys_ux_lib_asset'
                         id: '0f96fa121383401da0edaf69d13361fe'
+                        deleted: false
                     }
                     'x_326171_portfolio/main.js.map': {
                         table: 'sys_ux_lib_asset'
                         id: '7b08e652824e4261a7c82c9f94b03707'
+                        deleted: false
                     }
                 }
                 composite: [
@@ -312,6 +314,7 @@ declare global {
                     {
                         table: 'sys_choice_set'
                         id: '8333f0cb4e0f40aa995cefa598fc5fc2'
+                        deleted: false
                         key: {
                             name: 'x_326171_portfolio_incident'
                             element: 'priority'
@@ -329,6 +332,7 @@ declare global {
                     {
                         table: 'sys_choice_set'
                         id: '9715eb636018424291423758102a0c9d'
+                        deleted: false
                         key: {
                             name: 'x_326171_portfolio_incident'
                             element: 'status'
@@ -444,6 +448,7 @@ declare global {
                     {
                         table: 'sys_ui_view'
                         id: 'Default view'
+                        deleted: false
                         key: {
                             name: 'NULL'
                         }
