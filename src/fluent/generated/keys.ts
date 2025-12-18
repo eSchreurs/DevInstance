@@ -73,6 +73,16 @@ declare global {
                         table: 'sys_module'
                         id: '4e9336a6a80f4030806a9c8bc46de962'
                     }
+                    'x_326171_portfolio/index.es-CzPeAdk8': {
+                        table: 'sys_ux_lib_asset'
+                        id: '51d5b4988f9b43b58dc61d7d6ec46634'
+                        deleted: true
+                    }
+                    'x_326171_portfolio/index.es-CzPeAdk8.js.map': {
+                        table: 'sys_ux_lib_asset'
+                        id: 'e82d54331fde40bbb05864561c8ae8e5'
+                        deleted: true
+                    }
                     'x_326171_portfolio/main': {
                         table: 'sys_ux_lib_asset'
                         id: '0f96fa121383401da0edaf69d13361fe'

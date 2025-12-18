@@ -82,7 +82,7 @@ export default function App() {
                     Create New Incident
                 </button>
                 <button className="create-button" onClick={handleNavigateKanban}>
-                    Create New Incident
+                    Kanban View
                 </button>
             </header>
 
